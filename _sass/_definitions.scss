@@ -24,7 +24,7 @@ $content-width:      800px !default;
 
 $on-palm:            600px !default;
 $on-laptop:          800px !default;
-$min-width-map-plot: 700px !default; 
+$min-width-map-plot: 800px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -34,7 +34,8 @@ $min-width-map-plot: 700px !default;
 //   }
 // }
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
+  @media screen and (max-width: $device),
+         screen and (max-height: $device) {
     @content;
   }
 }
