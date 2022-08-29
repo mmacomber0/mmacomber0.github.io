@@ -7,7 +7,7 @@ html, body {
 	min-height: 100%;
 	@include media-query($min-width-map-plot) {
 		display: none;
-	}	
+	}
 }
 
 span.lineItem-num {
@@ -65,6 +65,6 @@ div#too-small-message {
 div#topButtons {
 	@include media-query($min-width-map-plot) {
 		display: none;
-	}		
+	}
 }
 

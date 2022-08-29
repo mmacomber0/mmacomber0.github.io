@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
-  <body style="height: 100%; width:100%;">
+  <body style="height: 100vh; width:100%;">
     {%- include header.html -%}
     <div style="height: 100%; width:100%; padding: {{ page.custom_padding | default: "20px" }}; flex:1">
       {{ content }}
