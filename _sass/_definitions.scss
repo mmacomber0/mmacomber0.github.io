@@ -12,6 +12,7 @@ $spacing-unit:     30px !default;
 $text-color:       #111 !default;
 $background-color: #ffffff !default;
 $link-color:      #2240d6 !default;
+$malcolm-yellow:  #D9C004 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -42,4 +43,11 @@ $min-width-map-plot: 800px !default;
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
+}
+
+@mixin ease-into-hover() {
+  &, &:hover, &active, &focus{
+    -webkit-transition: 0.25s ease-in;
+    transition: 0.25s ease-in;
+  }
 }

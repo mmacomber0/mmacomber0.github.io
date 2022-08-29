@@ -97,9 +97,10 @@ a {
   }
 
   &:hover {
-    color: $text-color;
     text-decoration: underline;
   }
+
+  @include ease-into-hover()
 
 }
 
@@ -186,6 +187,6 @@ pre {
  * Profile pic
  */
 #profile-pic {
-  border: 10px solid $grey-color-dark;
-  padding: 2px;
+  border: 2px solid $grey-color-light;
+  padding: 5px;
 }

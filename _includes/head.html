@@ -5,17 +5,18 @@
     <title>{{ page.custom_title }}</title>
   {% else %}
     <title>malcolm.work</title>
-  {% endif %}  
-  
+  {% endif %}
+
   <!--Phones/Tablets no scaling-->
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-  
+
   <!--CSS-->
   <link rel="stylesheet" href="{{ "/resources/bootstrap/css/bootstrap.min.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/resources/css/main.css" | relative_url }}">
-  
+
   <!-- JS -->
-  <script src="{{ "resources/bootstrap/js/bootstrap.min.js" | relative_url }}"></script>  
+  <script src="{{ "resources/jquery/external/jquery/jquery.js" | relative_url }}"></script>
+  <script src="{{ "resources/bootstrap/js/bootstrap.min.js" | relative_url }}"></script>
 
   {% if page.custom_css %}
     {% for stylesheet in page.custom_css %}
@@ -27,6 +28,6 @@
     {% for js_file in page.custom_js %}
       <script type="text/javascript" src="{{ js_file | relative_url }}"></script>
     {% endfor %}
-  {% endif %}  
-  
+  {% endif %}
+
 </head>
