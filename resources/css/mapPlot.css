@@ -1,0 +1,45 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#map {
+	min-height: 100%;
+}
+
+span.lineItem-num {
+	font-size: 1.3em;
+}
+
+.lineItem > * {
+	margin: 5px 3px;
+}
+
+.ui-icon {
+	background-image: url("/resources/jquery/images/ui-icons_3572ac_256x240.png") !important;
+}
+
+.ui-icon-circle-minus {
+	background-image: url("/resources/jquery/images/ui-icons_777777_256x240.png") !important;
+}
+
+.invalid-lineItem-num {
+	color: red;
+}
+
+.gm-style-iw > button {
+	display: none !important;
+}
+
+.gm-style-iw {
+	text-align: center;
+}
+
+.gm-style-iw {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
