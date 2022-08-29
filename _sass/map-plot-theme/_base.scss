@@ -5,6 +5,9 @@ html, body {
 
 #map {
 	min-height: 100%;
+	@include media-query($min-width-map-plot) {
+		display: none;
+	}	
 }
 
 span.lineItem-num {
@@ -43,3 +46,25 @@ span.lineItem-num {
 	-ms-user-select: none;
 	user-select: none;
 }
+
+div#too-small-message {
+	// position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color:black;
+	color:white;
+	display: none;
+	@include media-query($min-width-map-plot) {
+		display: block;
+		text-align: center;
+	}
+}
+
+div#topButtons {
+	@include media-query($min-width-map-plot) {
+		display: none;
+	}		
+}
+
