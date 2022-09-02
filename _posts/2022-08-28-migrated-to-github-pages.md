@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: general
+categories: tech
 title:  "Migrated to GitHub Pages"
 date:   2022-08-28 -0700
 author: Malcolm Macomber
