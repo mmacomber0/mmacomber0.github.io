@@ -16,4 +16,4 @@ Next up—and I'm not fully sure why—is Idaho! It looks to be a beautiful stat
 
 Check out the map below for some of the stuff we plan on doing. 
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1pyUGxpvLX25lC4NbVVRtZ1pB_kVfIHE&ehbc=2E312F" width="640" height="640"></iframe>
+<iframe class="map-in-post" src="https://www.google.com/maps/d/embed?mid=1pyUGxpvLX25lC4NbVVRtZ1pB_kVfIHE&ehbc=2E312F"></iframe>
