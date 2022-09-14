@@ -4,6 +4,7 @@ categories: travel
 title:  "Idaho Trip"
 date:   2022-09-01 -0700
 author: Malcolm Macomber
+redirect_from: /id-trip
 ---
 
 **Stuff I'm doing in Idaho ✈️**
