@@ -15,5 +15,5 @@ I've got everything migrated over, and I was able to delete my old hosting accou
 
 Check out this GitHub repo to see how this site is put together using GitHub Pages / Jekyll: [mmacomber0.github.io](https://github.com/mmacomber0/mmacomber0.github.io).
 
-It wonderfully simple, and more importantly, free!
+It is wonderfully simple, and more importantly, free!
 
