@@ -15,7 +15,7 @@ We're heading to Québec to explore the south of the province!
 
 My wife and I went to France last year, and this is an excuse to use some of our residual French knowledge. (Note: I'll be heavily relying on her. 🙂)
 
-We land in Montréal and slowly head northeast along the St. Lawrence River up to Tadoussac. On the way back we'll head down towards the US border and circle back to Montéal.
+We land in Montréal and slowly head northeast along the St. Lawrence River up to Tadoussac. On the way back we'll head down towards the US border and circle back to Montréal.
 
 The last time I was there, I was too young to remember, so I'm excited to rediscover the province. Plus Phoenix is already too hot, so I'm very happy to enjoy some cooler spring weather. 
 
