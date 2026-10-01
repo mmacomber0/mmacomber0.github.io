@@ -1,8 +1,22 @@
 ---
 layout: naked
+title: "Resume"
 custom_padding: 0px
 set_to_viewport: true
 permalink: /resume
 ---
 
-<object data="/resume.pdf" width="100%" height="100%" type='application/pdf'></object>
+<div class="resume-container">
+  <div class="resume-toolbar">
+    <span class="resume-toolbar-title">Malcolm Macomber &mdash; Resume</span>
+    <a href="{{ '/resume.pdf' | relative_url }}" class="resume-download-btn" target="_blank" rel="noopener noreferrer">Open / Download PDF &rarr;</a>
+  </div>
+  <div class="resume-embed">
+    <object data="{{ '/resume.pdf' | relative_url }}" width="100%" height="100%" type="application/pdf">
+      <div class="resume-fallback">
+        <p>PDF preview is not supported directly on this browser or mobile device.</p>
+        <p><a href="{{ '/resume.pdf' | relative_url }}" class="resume-download-btn" target="_blank" rel="noopener noreferrer">View or Download PDF Resume</a></p>
+      </div>
+    </object>
+  </div>
+</div>
