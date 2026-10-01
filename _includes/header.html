@@ -1,3 +1,12 @@
 <header class="site-header" role="banner">
-  <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  <div class="header-inner">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <nav class="site-nav" aria-label="Main Navigation">
+      <a class="page-link" href="{{ "/#about" | relative_url }}">About</a>
+      <a class="page-link" href="{{ "/#resume" | relative_url }}">Resume</a>
+      <a class="page-link" href="{{ "/#projects" | relative_url }}">Projects</a>
+      <a class="page-link" href="{{ "/blog/" | relative_url }}">Blog</a>
+    </nav>
+  </div>
 </header>
+

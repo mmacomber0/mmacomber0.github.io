@@ -3,34 +3,70 @@
  */
 .site-header {
   border-top: 5px solid $grey-color-dark;
-  // border-bottom: 1px solid $grey-color-light;
-  // min-height: $spacing-unit * 1.5;
-
-  // Positioning context for the mobile navigation icon
+  border-bottom: 1px solid $grey-color-light;
   position: relative;
+  background-color: $background-color;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @include media-query($on-palm) {
+    flex-direction: column;
+    padding: 8px 10px;
+    gap: 8px;
+  }
 }
 
 .site-title {
   @include relative-font-size(1.4);
   font-weight: 300;
-  // line-height: $base-line-height * $base-font-size * 1.5;
   letter-spacing: -1px;
   margin-bottom: 0;
-  padding: 0 20px;
+  padding: 4px 18px;
   display: inline-block;
-  margin-top: -1px;
   background-color: transparentize($malcolm-yellow, 0.85);
 
   &, &:visited {
     color: $grey-color;
   }
-  &:hover, &active, &focus {
+  &:hover, &:active, &:focus {
     background-color: transparentize($malcolm-yellow, 0.65);
     text-decoration: none;
     color: $grey-color-dark;
   }
 
   @include ease-into-hover();
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .page-link {
+    color: $grey-color;
+    font-size: $small-font-size;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+
+    &:hover, &:active, &:focus {
+      color: $text-color;
+      text-decoration: underline;
+    }
+  }
+
+  @include media-query($on-palm) {
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 
