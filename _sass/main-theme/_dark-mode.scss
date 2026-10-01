@@ -1,0 +1,104 @@
+/**
+ * Pure CSS Dark Mode
+ * Activates automatically when the user's system preferences prefer dark scheme.
+ */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #16161a;
+    color: #dedee0;
+  }
+
+  a, a:visited {
+    color: #72a9ff;
+  }
+
+  hr {
+    border-color: #2e2e34;
+  }
+
+  .site-header {
+    background-color: #16161a;
+    border-top-color: #a0a0a8;
+    border-bottom-color: #2e2e34;
+  }
+
+  .site-title {
+    background-color: rgba(217, 192, 4, 0.22);
+
+    &, &:visited {
+      color: #e0e0e5;
+    }
+
+    &:hover, &:active, &:focus {
+      background-color: rgba(217, 192, 4, 0.38);
+      color: #ffffff;
+    }
+  }
+
+  .site-nav .page-link {
+    color: #a0a0a8;
+
+    &:hover, &:active, &:focus {
+      color: #ffffff;
+    }
+  }
+
+  table {
+    color: #dedee0;
+  }
+
+  table tr th,
+  table tr td {
+    border-color: #2e2e34;
+  }
+
+  #profile-pic {
+    border-color: #383842;
+  }
+
+  pre, code {
+    background-color: #212128;
+    border-color: #33333e;
+    color: #e8e8ed;
+  }
+
+  .highlighter-rouge .highlight {
+    background: #212128;
+    color: #dedee0;
+  }
+
+  blockquote {
+    color: #a0a0a8;
+    border-left-color: #383842;
+  }
+
+  .post-meta {
+    color: #92929c;
+  }
+
+  footer.site-footer p {
+    color: #92929c;
+  }
+
+  .resume-toolbar {
+    background-color: #212128;
+    border-bottom-color: #33333e;
+  }
+
+  .resume-toolbar-title {
+    color: #dedee0;
+  }
+
+  .resume-download-btn {
+    background-color: #2563eb;
+  }
+
+  .resume-fallback {
+    background-color: #1b1b22;
+    border-color: #383842;
+
+    p {
+      color: #dedee0;
+    }
+  }
+}
