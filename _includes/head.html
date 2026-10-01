@@ -32,12 +32,7 @@
   <meta name="twitter:image" content="{{ og_image | absolute_url }}">
 
   <!--CSS-->
-  <link rel="stylesheet" href="{{ "/resources/bootstrap/css/bootstrap.min.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/resources/css/main.css" | relative_url }}">
-
-  <!-- JS -->
-  <script src="{{ "resources/jquery/external/jquery/jquery.js" | relative_url }}"></script>
-  <script src="{{ "resources/bootstrap/js/bootstrap.min.js" | relative_url }}"></script>
 
   {% if page.custom_css %}
     {% for stylesheet in page.custom_css %}

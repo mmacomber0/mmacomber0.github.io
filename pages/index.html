@@ -3,86 +3,72 @@ layout: naked
 permalink: /
 ---
 <!-- First section - About -->
-<div id="about" class="big-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6" class="pic-container">
-        <img src="resources/images/elMalpais.jpg" alt="Malcolm Macomber on vacation in New Mexico" class="img-responsive" id="profile-pic"/>
-      </div>
-      <div class="col-sm-6 text-center">
-        <h2>Hi, I'm Malcolm.</h2>
-        <p class="lead">Here are some quick facts about me.</p>
-        <table class="table table-responsive table-condensed lead">
-          <tbody>
-            <tr><th>I am a</th><td>software engineer</td></tr>
-            <tr><th>living in</th><td>Phoenix, AZ</td></tr>
-            <tr><th>from</th><td>Portland, ME</td></tr>
-          </tbody>
-        </table>
-        <p class="lead">I keep a resume, some small projects, and a blog on this site. You can reach me at hello<a></a>@malcolm<b></b>.work.</p>
-      </div>
+<section id="about" class="site-section">
+  <div class="container section-about">
+    <div class="pic-container">
+      <img src="{{ "/resources/images/elMalpais.jpg" | relative_url }}" alt="Malcolm Macomber on vacation in New Mexico" id="profile-pic"/>
+    </div>
+    <div class="bio-container">
+      <h2>Hi, I'm Malcolm.</h2>
+      <p class="lead">Here are some quick facts about me.</p>
+      <table class="info-table">
+        <tbody>
+          <tr><th>I am a</th><td>software engineer</td></tr>
+          <tr><th>living in</th><td>Phoenix, AZ</td></tr>
+          <tr><th>from</th><td>Portland, ME</td></tr>
+        </tbody>
+      </table>
+      <p class="lead">I keep a resume, some small projects, and a blog on this site. You can reach me at hello<a></a>@malcolm<b></b>.work.</p>
     </div>
   </div>
-</div>
+</section>
 
-<hr/>
+<hr class="section-divider"/>
 
 <!-- Second section - Resume -->
-<div id="resume" class="big-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2>Resume</h2>
-        <p class="lead">Here is a quick rundown.</p>
-        <table class="table table-responsive table-condensed lead">
-          <tbody>
-            <tr><th>Experience</th><td>Professional software engineer since 2012</td>
-            <tr><th>Education</th><td>MS Computer Science from Georgia Tech<br>BS Electrical and Computer Engineering from UMaine</td>
-            <!-- <tr><th>Current status</th><td><strong>Taking a few weeks off before<br/>starting somewhere new in March...</strong></td> -->
-            <tr><th>Current company</th><td>hims & hers</td>
-            <tr><th>Previous companies</th><td>Hinge Health, Amazon, Garmin, IBM</td>
-            <!--<tr><th>Currently working on</th><td>...</td>-->
-          </tbody>
-        </table>
-        <p class="lead">
-          <a href="/resume.pdf">PDF Resume</a> |
-          <a href="https://www.linkedin.com/in/mtmacomber">LinkedIn</a>.<br></p>
-      </div>
-    </div>
+<section id="resume" class="site-section">
+  <div class="container text-center">
+    <h2>Resume</h2>
+    <p class="lead">Here is a quick rundown.</p>
+    <table class="info-table info-table-center">
+      <tbody>
+        <tr><th>Experience</th><td>Professional software engineer since 2012</td></tr>
+        <tr><th>Education</th><td>MS Computer Science from Georgia Tech<br>BS Electrical and Computer Engineering from UMaine</td></tr>
+        <!-- <tr><th>Current status</th><td><strong>Taking a few weeks off before<br/>starting somewhere new in March...</strong></td></tr> -->
+        <tr><th>Current company</th><td>hims & hers</td></tr>
+        <tr><th>Previous companies</th><td>Hinge Health, Amazon, Garmin, IBM</td></tr>
+        <!--<tr><th>Currently working on</th><td>...</td></tr>-->
+      </tbody>
+    </table>
+    <p class="lead">
+      <a href="{{ "/resume.pdf" | relative_url }}">PDF Resume</a> |
+      <a href="https://www.linkedin.com/in/mtmacomber" target="_blank" rel="noopener noreferrer">LinkedIn</a>.<br>
+    </p>
   </div>
-</div>
+</section>
 
-<hr/>
+<hr class="section-divider"/>
 
 <!-- Third section - Projects -->
-<div id="projects" class="big-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2>Projects</h2>
-        <p class="lead">Any small web-based projects that seem useful will go up here.</p>
-        <table class="table table-responsive table-condensed lead">
-          <tbody>
-            <tr><td><a href="/mapPlot">MapPlot</a></td><td>A web-app to quickly create plotted map points and lines (uses the GoogleMaps API.)</td></tr>
-            <tr><td><a href="https://github.com/mmacomber0/mmacomber0.github.io">mmacomber0.github.io</a></td><td>The GitHub repo used to build this website.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+<section id="projects" class="site-section">
+  <div class="container text-center">
+    <h2>Projects</h2>
+    <p class="lead">Any small web-based projects that seem useful will go up here.</p>
+    <table class="info-table info-table-center">
+      <tbody>
+        <tr><td><a href="{{ "/mapPlot" | relative_url }}">MapPlot</a></td><td>A web-app to quickly create plotted map points and lines (uses the GoogleMaps API.)</td></tr>
+        <tr><td><a href="https://github.com/mmacomber0/mmacomber0.github.io" target="_blank" rel="noopener noreferrer">mmacomber0.github.io</a></td><td>The GitHub repo used to build this website.</td></tr>
+      </tbody>
+    </table>
   </div>
-</div>
+</section>
 
-
-<hr/>
+<hr class="section-divider"/>
 
 <!-- Fourth section - Blog -->
-<div id="Blog" class="big-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2>Blog</h2>
-        <p class="lead">Any interesting tid-bits will end up in this blog: <a href="/blog/">malcolm.work/blog</a>.</p>
-      </div>
-    </div>
+<section id="blog" class="site-section">
+  <div class="container text-center">
+    <h2>Blog</h2>
+    <p class="lead">Any interesting tid-bits will end up in this blog: <a href="{{ "/blog/" | relative_url }}">malcolm.work/blog</a>.</p>
   </div>
-</div>
+</section>

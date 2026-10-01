@@ -191,4 +191,8 @@ pre {
 #profile-pic {
   border: 2px solid $grey-color-light;
   padding: 5px;
+  border-radius: 4px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }

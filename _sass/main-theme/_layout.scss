@@ -88,6 +88,101 @@ footer.site-footer {
 
 
 /**
+ * Sections and containers (pure CSS, replacing Bootstrap)
+ */
+.container {
+  max-width: $content-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.site-section {
+  padding: 30px 0;
+}
+
+.section-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  @include media-query($on-palm) {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
+.pic-container {
+  flex: 0 0 auto;
+  max-width: 320px;
+
+  @include media-query($on-palm) {
+    max-width: 240px;
+    margin: 0 auto;
+  }
+}
+
+.bio-container {
+  flex: 1;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.info-table {
+  margin: 15px auto;
+  border-collapse: collapse;
+  font-size: 1.15rem;
+
+  th, td {
+    padding: 8px 14px;
+    vertical-align: top;
+    border-top: 1px solid $grey-color-light;
+  }
+
+  th {
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: right;
+    color: $text-color;
+  }
+
+  td {
+    text-align: left;
+  }
+
+  tbody tr:first-child th,
+  tbody tr:first-child td {
+    border-top: none;
+  }
+}
+
+.info-table-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-divider {
+  border: 0;
+  height: 1px;
+  background-color: $grey-color-light;
+  max-width: $content-width;
+  margin: 20px auto;
+}
+
+/**
  * Page content
  */
 .page-content {
